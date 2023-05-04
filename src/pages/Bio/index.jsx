@@ -2,7 +2,11 @@ import React from 'react'
 
 function Bio() {
   return (
-    <div>Designer bonito não vende!!!</div>
+    <>
+      <span>Designer bonito não vende</span>
+      <h1>Elyas Rodrigues</h1>
+      <p>Links que podem ser úteis</p>
+    </>
   )
 }
 
