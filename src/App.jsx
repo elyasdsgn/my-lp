@@ -1,8 +1,7 @@
 import Home from './pages/Home';
 import Bio from './pages/Bio';
-import Error from './pages/Error'
 
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
@@ -15,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <Error/>
+    element: <Navigate to={'/'}/>
   }
 ])
 
