@@ -4,6 +4,8 @@ import Hero from "../../components/bio/Hero";
 import Botoes from "../../components/bio/Botoes";
 
 function Bio() {
+  document.title = "Links | Elyas Rodrigues"
+
   return (
     <>
       <div className="bioPageSection d-flex">
