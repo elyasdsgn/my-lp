@@ -1,4 +1,4 @@
-import Perguntas from "../common/Perguntas";
+import Perguntas from "../../common/Perguntas";
 import "./faq.scss";
 
 function Faq() {

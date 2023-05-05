@@ -1,6 +1,6 @@
 .hero{
   width: 100%;
-  background-image: url("../../assets/hero/bgHeroDesktop.jpg");
+  background-image: url("../../../assets/hero/bgHeroDesktop.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +30,7 @@
 
 @media (max-width: 770px){
   .hero{
-    background-image: url("../../assets/hero/bgHeroMobile.jpg");
+    background-image: url("../../../assets/hero/bgHeroMobile.jpg");
     background-position: top center;
 
     .content{

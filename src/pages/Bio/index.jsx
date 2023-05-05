@@ -1,13 +1,20 @@
-import React from 'react'
+import "./bio.scss";
+import Header from "../../components/bio/Header";
+import Hero from "../../components/bio/Hero";
+import Botoes from "../../components/bio/Botoes";
 
 function Bio() {
   return (
     <>
-      <span>Designer bonito não vende</span>
-      <h1>Elyas Rodrigues</h1>
-      <p>Links que podem ser úteis</p>
+      <div className="bioPageSection d-flex">
+        <Header />
+        <main>
+          <Hero />
+          <Botoes />
+        </main>
+      </div>
     </>
-  )
+  );
 }
 
-export default Bio
+export default Bio;

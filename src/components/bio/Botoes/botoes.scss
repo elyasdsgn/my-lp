@@ -1,0 +1,25 @@
+.buttons{
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  #port{
+    width: 333px;
+  }
+  #behas{
+    margin-top: -20px;
+    width: 366px;
+    margin-right: 32px;
+  }
+  #zap{
+    width: 368px;
+    margin-left: 34px;
+  }
+
+  a{
+    transition: 1s;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}

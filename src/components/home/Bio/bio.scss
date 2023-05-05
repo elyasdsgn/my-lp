@@ -1,6 +1,6 @@
 .bio{
   min-height: 550px;
-  background-image: url("../../assets/bio/bgBioDesktop.jpg");
+  background-image: url("../../../assets/bio/bgBioDesktop.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
 
 @media (max-width: 770px){
   .bio{
-    background-image: url("../../assets/bio/bgBioMobile.jpg");
+    background-image: url("../../../assets/bio/bgBioMobile.jpg");
     
     .content{
       

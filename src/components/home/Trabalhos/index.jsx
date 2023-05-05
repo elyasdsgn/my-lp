@@ -1,5 +1,5 @@
-import CardScroll from "../common/CardScroll";
-import Carrossel from "../common/Carrossel";
+import CardScroll from "../../common/CardScroll";
+import Carrossel from "../../common/Carrossel";
 import { SwiperSlide } from "swiper/react";
 import {
   instagram,
@@ -27,7 +27,7 @@ import {
 } from "./imgs";
 
 import "./trabalho.scss";
-import CreativeCard from "../common/CreativeCard";
+import CreativeCard from "../../common/CreativeCard";
 
 function Trabalhos() {
   const settings = {

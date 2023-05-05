@@ -1,12 +1,12 @@
-import Card from "../common/Card";
-import Carrossel from "../common/Carrossel";
+import Card from "../../common/Card";
+import Carrossel from "../../common/Carrossel";
 import { SwiperSlide } from "swiper/react";
 import "./promessas.scss";
-import exibicao from "../../assets/promessas/exibicao.png";
-import foguete from "../../assets/promessas/foguete.png";
-import xadrez from "../../assets/promessas/xadrez.png";
-import garantia from "../../assets/promessas/garantia.png";
-import otimizacao from "../../assets/promessas/otimizacao.png";
+import exibicao from "../../../assets/promessas/exibicao.png";
+import foguete from "../../../assets/promessas/foguete.png";
+import xadrez from "../../../assets/promessas/xadrez.png";
+import garantia from "../../../assets/promessas/garantia.png";
+import otimizacao from "../../../assets/promessas/otimizacao.png";
 
 function Promessas() {
   const settings = {
