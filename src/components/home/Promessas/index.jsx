@@ -26,7 +26,7 @@ function Promessas() {
     <section className="promessas d-flex pad">
       <div className="container">
         <div className="content d-flex">
-          <h2>
+          <h2 data-aos="zoom-in" data-aos-duration="600">
             Alguns dos processos que uso para aumentar a conversão das suas
             páginas:
           </h2>

@@ -1,7 +1,10 @@
 import Home from './pages/Home';
 import Bio from './pages/Bio';
+import AOS from 'aos'
+import "aos/dist/aos.css"
 
 import { createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
+import { useEffect } from 'react';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +22,11 @@ const router = createBrowserRouter([
 ])
 
 function App() {
+  useEffect(() => {
+    AOS.init()
+  }, [])
+  
+
   return (
     <>
       <RouterProvider

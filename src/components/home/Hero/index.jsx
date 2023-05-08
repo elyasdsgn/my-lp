@@ -17,7 +17,7 @@ function Hero() {
   return (
     <header className="hero d-flex">
       <div className="container">
-        <div className="content">
+        <div className="content" data-aos="zoom-in" data-aos-duration="1500">
           <h1>Tenha páginas incríveis que convertem!!</h1>
           <h2>Aumente seu faturamento com páginas estratégicas que convertem e fique à frente da concorrência.</h2>
           <a href={`https://wa.me/98988149744?text=Oi, ${hora}! Vim pelo seu site e quero fazer um orçamento.`} className="button">QUERO UM ORÇAMENTO</a>

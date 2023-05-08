@@ -24,6 +24,7 @@ import {
   mainstreet,
   projetoDom,
   comunidadeCafa,
+  advogada,
 } from "./imgs";
 
 import "./trabalho.scss";
@@ -70,9 +71,9 @@ function Trabalhos() {
     <section className="trabalhos d-flex">
       <div className="container">
         <div className="content pad">
-          <h2>Conheça meu trabalho</h2>
+          <h2 data-aos="zoom-in" data-aos-duration="1500">Conheça meu trabalho</h2>
 
-          <div className="social-media d-flex">
+          <div className="social-media d-flex" data-aos="zoom-in"data-aos-duration="2000">
             <a href="https://www.instagram.com/dsgn.elyas/" target={"_blank"}>
               <img src={instagram} alt="logo-instagram" />
             </a>
@@ -88,6 +89,7 @@ function Trabalhos() {
               <CardScroll img={mainstreet} />
               <CardScroll img={projetoDom} />
               <CardScroll img={comunidadeCafa} />
+              <CardScroll img={advogada} />
             </div>
           </div>
 
@@ -158,6 +160,7 @@ function Trabalhos() {
           <a
             href={`https://wa.me/98988149744?text=Oi, ${hora}! Vim pelo seu site e quero fazer um orçamento.`}
             className="button"
+            data-aos="zoom-in" data-aos-duration="1500"
           >
             QUERO UM ORÇAMENTO
           </a>
