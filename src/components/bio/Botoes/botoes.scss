@@ -1,71 +1,14 @@
 .buttons{
   flex-direction: column;
-  align-items: center;;
-  gap: 40px;
+  align-items: center;
 
-  #port{
-    width: 333px;
-  }
-  #behas{
-    margin-top: -20px;
-    width: 366px;
-    margin-right: 32px;
-  }
-  #zap{
-    width: 368px;
-    margin-left: 34px;
-  }
-
-  a{
+  .cardBio{
+    max-width: 380px;
+    width: 100%;
     transition: 1s;
     &:hover{
       transform: scale(1.1);
     }
-  }
-}
-
-@media (max-width: 450px){
-  .buttons{
-    gap: 20px;
-
-    #port{
-      width: 248px;
-    }
-    #behas{
-      margin-top: -20px;
-      width: 270px;
-      margin-right: 20px;
-    }
-    #zap{
-      width: 270px;
-      margin-left: 28px;
-    }
-
-  }
-}
-
-@media (max-width: 320px){
-  .buttons{
-
-    #port{
-      width: 100%;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    #behas{
-      margin-top: -20px;
-      width: 100%;
-      margin-right: 0;
-      padding-left: 10px;
-      padding-right: 30px;
-    }
-    #zap{
-      width: 100%;
-      margin-left: 0;
-      padding-left: 33px;
-      padding-right: 8px;
-    }
-
   }
 }
 

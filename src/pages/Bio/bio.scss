@@ -1,7 +1,10 @@
 .bioPageSection{
+  max-height: 1100px;
   width: 100%;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../assets/BioPage/bg2.jpg");
+  background-image: url("../../assets/BioPage/bg.jpg");
   background-position: top center;  
+  background-repeat: no-repeat;
+  background-size: cover;
 }

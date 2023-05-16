@@ -24,6 +24,11 @@ const router = createBrowserRouter([
 function App() {
   useEffect(() => {
     AOS.init()
+
+    //Bloquear o arrasta das imagens
+    document.addEventListener('dragstart', (evento) => evento.preventDefault(), false)
+    document.addEventListener('drop', (evento) => evento.preventDefault(), false)
+
   }, [])
   
 
