@@ -1,6 +1,6 @@
-import port from "../../../assets/BioPage/PORTFOLIO.png";
-import behance from "../../../assets/BioPage/BEHANCE.png";
-import zap from "../../../assets/BioPage/ZAP.png";
+import port from "../../../assets/BioPage/portfolio.png";
+import behance from "../../../assets/BioPage/behance.png";
+import zap from "../../../assets/BioPage/zap.png";
 import { Link } from 'react-router-dom'
 import "./botoes.scss"
 
