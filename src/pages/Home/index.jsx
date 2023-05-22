@@ -7,6 +7,7 @@ import Promessas from '../../components/home/Promessas';
 import Trabalhos from '../../components/home/Trabalhos';
 
 function Home() {
+  document.title = "Elyas | Designer"
   return (
     <>
       <Hero />
