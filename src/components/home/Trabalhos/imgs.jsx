@@ -22,11 +22,18 @@ import gym6 from '../../../assets/trabalhos/creatives/gym6.webp'
 import gym7 from '../../../assets/trabalhos/creatives/gym7.webp'
 import gym8 from '../../../assets/trabalhos/creatives/gym8.webp'
 import gym9 from '../../../assets/trabalhos/creatives/gym9.webp'
+import desenv1 from '../../../assets/trabalhos/creatives/desenv1.webp'
+import desenv2 from '../../../assets/trabalhos/creatives/desenv2.webp'
+import desenv3 from '../../../assets/trabalhos/creatives/desenv3.webp'
+import desenv4 from '../../../assets/trabalhos/creatives/desenv4.webp'
+import desenv5 from '../../../assets/trabalhos/creatives/desenv5.webp'
+import desenv6 from '../../../assets/trabalhos/creatives/desenv6.webp'
 
 export { 
   gas1, gas2, gas3, gas4, 
   est1, est2, est3, est4, 
   gym1, gym2, gym3, gym4, gym5, gym6, gym7, gym8, gym9,
+  desenv1, desenv2, desenv3, desenv4, desenv5, desenv6,
   instagram, behence, 
   mainstreet, projetoDom, comunidadeCafa, advogada, segredosVendas
 

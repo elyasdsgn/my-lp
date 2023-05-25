@@ -21,6 +21,12 @@ import {
   gym7,
   gym8,
   gym9,
+  desenv1,
+  desenv2,
+  desenv3,
+  desenv4,
+  desenv5,
+  desenv6,
   mainstreet,
   projetoDom,
   comunidadeCafa,
@@ -154,6 +160,28 @@ function Trabalhos() {
                 </SwiperSlide>
                 <SwiperSlide>
                   <CreativeCard creativeImg={gym9} />
+                </SwiperSlide>
+              </Carrossel>
+            </div>
+            <div className="creatives-cards">
+              <Carrossel settings={settings}>
+                <SwiperSlide>
+                  <CreativeCard creativeImg={desenv1} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <CreativeCard creativeImg={desenv2} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <CreativeCard creativeImg={desenv3} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <CreativeCard creativeImg={desenv4} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <CreativeCard creativeImg={desenv5} />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <CreativeCard creativeImg={desenv6} />
                 </SwiperSlide>
               </Carrossel>
             </div>
