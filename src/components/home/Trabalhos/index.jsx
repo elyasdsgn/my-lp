@@ -25,6 +25,7 @@ import {
   projetoDom,
   comunidadeCafa,
   advogada,
+  segredosVendas
 } from "./imgs";
 
 import "./trabalho.scss";
@@ -90,6 +91,7 @@ function Trabalhos() {
               <CardScroll img={projetoDom} />
               <CardScroll img={comunidadeCafa} />
               <CardScroll img={advogada} />
+              <CardScroll img={segredosVendas} />
             </div>
           </div>
 
