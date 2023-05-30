@@ -1,8 +1,11 @@
 .buttons{
   flex-direction: column;
   align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
 
   .cardBio{
+    border-radius: 10px;
     max-width: 380px;
     width: 100%;
     transition: 1s;
