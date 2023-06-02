@@ -11,7 +11,7 @@ function Hero() {
       <img src={brilho} alt="brilho" className="brilho-2" />
       </div>
       <h1>Elyas Rodrigues</h1>
-      <p>Alguns links quem podem ser uteis!!</p>
+      <p>Alguns links que podem ser úteis!!</p>
     </section>
   );
 }
