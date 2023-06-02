@@ -2,12 +2,30 @@
   flex-direction: column;
   align-items: center;
 
-  img{
+  .imagem{
     max-width: 480px;
-    width: 100%;
-    margin-bottom: -40px;
-    margin-top: -60px;
-
+    padding: 40px 0;
+    position: relative;
+    img{
+      width: 90%;
+      margin-bottom: -40px;
+      margin-top: -60px;
+  
+    }
+    .brilho-1{
+      width: 200px;
+      position: absolute;
+      bottom: 50px;
+      left: -50px;
+      animation: brilho 4s linear alternate infinite;
+    }
+    .brilho-2{
+      width: 120px;
+      position: absolute;
+      top: 30px;
+      right: -20px;
+      animation: brilho 6s linear alternate infinite;
+    }
   }
   h1{
     font-size: 38px;
@@ -20,11 +38,33 @@
   }
 }
 
+@keyframes brilho {
+  0%{
+    opacity: 0.7;
+    transform: scale(1);
+    
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+
+
 @media (max-width: 500px){
   .fotoHero{
-    img{
-      margin-top: -40px;
-
+    .imagem{
+      max-width: 360px;
+      .brilho-1{
+        width: 100px;
+        bottom: 26%;
+        left: -4%;
+      }
+      .brilho-2{
+        top: 26px;
+        right: -30px;
+      }
     }
     h1{
       font-size: 28px;
@@ -33,6 +73,23 @@
     }
     p{
       font-size: 14px;
+    }
+  }
+  
+}
+
+@media (max-width: 330px){
+  .fotoHero{
+    .imagem{
+      .brilho-1{
+        bottom: 26%;
+        left: -6%;
+      }
+      .brilho-2{
+        width: 100px;
+        top: 30px;
+        right: -20px;
+      }
     }
   }
   
