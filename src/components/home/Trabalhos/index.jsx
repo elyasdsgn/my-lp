@@ -31,7 +31,8 @@ import {
   projetoDom,
   comunidadeCafa,
   advogada,
-  segredosVendas
+  segredosVendas,
+  cloudflare
 } from "./imgs";
 
 import "./trabalho.scss";
@@ -98,6 +99,7 @@ function Trabalhos() {
               <CardScroll img={comunidadeCafa} />
               <CardScroll img={advogada} />
               <CardScroll img={segredosVendas} />
+              <CardScroll img={cloudflare} />
             </div>
           </div>
 

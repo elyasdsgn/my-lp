@@ -13,6 +13,7 @@ import projetoDom from "../../../assets/trabalhos/pages/projetoDom.webp";
 import comunidadeCafa from "../../../assets/trabalhos/pages/comunidadeCafa.webp";
 import advogada from "../../../assets/trabalhos/pages/lp-advogada.webp";
 import segredosVendas from "../../../assets/trabalhos/pages/o-segredo-das-vendas.webp"
+import cloudflare from "../../../assets/trabalhos/pages/cloudflare.webp"
 import gym1 from '../../../assets/trabalhos/creatives/gym1.webp'
 import gym2 from '../../../assets/trabalhos/creatives/gym2.webp'
 import gym3 from '../../../assets/trabalhos/creatives/gym3.webp'
@@ -35,6 +36,6 @@ export {
   gym1, gym2, gym3, gym4, gym5, gym6, gym7, gym8, gym9,
   desenv1, desenv2, desenv3, desenv4, desenv5, desenv6,
   instagram, behence, 
-  mainstreet, projetoDom, comunidadeCafa, advogada, segredosVendas
+  mainstreet, projetoDom, comunidadeCafa, advogada, segredosVendas,  cloudflare
 
 }
